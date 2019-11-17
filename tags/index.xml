@@ -40,20 +40,20 @@
     </item>
     
     <item>
-      <title>day 2</title>
-      <link>/tags/day-2/</link>
-      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/day-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>day 3</title>
       <link>/tags/day-3/</link>
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/day-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>day 2</title>
+      <link>/tags/day-2/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/day-2/</guid>
       <description></description>
     </item>
     
