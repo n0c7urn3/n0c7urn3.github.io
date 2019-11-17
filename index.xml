@@ -7,10 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DC 2019 - Day 4</title>
+      <link>/posts/2019-08-21-defcon-2019-day-four/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-08-21-defcon-2019-day-four/</guid>
+      <description>The day started with much grunting trying to get the energy to roll out of bed. We weren’t hung over, just exhausted. The night had ended around 430AM, and we were attempting to get out of bed to join the Cryoflesh folks for Brunchcon (now with 300%-500% more feral hogs!). After an hour of hitting snooze, we got dressed, rinsed the grime off, and wandered over.
+A lot of good conversation was had while eating, and I realized mid-conversation who I was speaking to (this was a common thing during the weekend).</description>
+    </item>
+    
+    <item>
+      <title>DC 2019 - Day 3</title>
+      <link>/posts/-2019-08-17-defcon-2019-day-three/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/-2019-08-17-defcon-2019-day-three/</guid>
+      <description>Saturday started, like the previous days, at lunch. One of the DeadPixelSec members hit a pretty decent payout and bought us all lunch. Over lunch, we all talked about what we do professionally, what brought us to Defcon, and what we’ve been doing at Defcon. My interactions with these folks have been overwhelmingly positive, on Discord and in person.
+We then wandered from there to the vendor room. I didn’t buy anything, but as mentioned in the Day Two coverage, I donated some money for Dead Addict, and the gentleman who bought us lunch, and had the sticker pack thrust upon me (and I’m now an EFF member).</description>
+    </item>
+    
+    <item>
+      <title>DC 2019 - Day 3</title>
+      <link>/posts/2019-08-17-defcon-2019-day-three/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-08-17-defcon-2019-day-three/</guid>
+      <description>Saturday started, like the previous days, at lunch. One of the DeadPixelSec members hit a pretty decent payout and bought us all lunch. Over lunch, we all talked about what we do professionally, what brought us to Defcon, and what we’ve been doing at Defcon. My interactions with these folks have been overwhelmingly positive, on Discord and in person.
+We then wandered from there to the vendor room. I didn’t buy anything, but as mentioned in the Day Two coverage, I donated some money for Dead Addict, and the gentleman who bought us lunch, and had the sticker pack thrust upon me (and I’m now an EFF member).</description>
+    </item>
+    
+    <item>
+      <title>DC 2019 Day two</title>
+      <link>/posts/2019-08-17-defcon-2019-day-two/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-08-17-defcon-2019-day-two/</guid>
+      <description>Day two was interesting. I didn’t exactly get to do the networking I wanted, but maybe the networking I needed. We started with brunch at Le Village Buffet with a few other members from the DeadPixelSec Discord (fabulous bunch of people), and then wandered over back to Planet Hollywood with another goth to see the CyberSeXurity panel by Alison Falk, Lora Haddock, and Katelyn Bowden.
+The talk centered on gender equity in tech, and how double standards are pervasive in law and society, and what we can do to make tech a more equal place for everyone across the gender spectrum.</description>
+    </item>
     
     <item>
       <title>DC 2019 - Days -1 and 0</title>
@@ -144,48 +184,13 @@ Education Bachelor of Science | 2018 | Colorado Technical University
     </item>
     
     <item>
-      <title></title>
-      <link>/posts/defcon-2019-day-four/</link>
+      <title>DC 2019 - Day 1 </title>
+      <link>/posts/2019-08-15-defcon-2019-day-one/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/posts/defcon-2019-day-four/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/defcon-2019-day-one/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/defcon-2019-day-one/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/defcon-2019-day-three/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/defcon-2019-day-three/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/defcon-2019-day-two/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/defcon-2019-day-two/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/helloworld/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/helloworld/</guid>
-      <description></description>
+      <guid>/posts/2019-08-15-defcon-2019-day-one/</guid>
+      <description>Honestly, I spent a bit of time trying to catch up on sleep before the conference really got underway. Las Vegas is more than a little stimulating to the senses, and the packs of roving hackers at Defcon doesn’t help that.
+In years past, I’d join Line-con around 3-4 AM to guarantee I didn’t end up with a paper badge (my first year was the first year that they had to resort to that from what I was told), but this year, I decided to get a little bit of sleep after meeting up with one of the Gothcon folks the night before, and wound up getting to the line around 615AM, 15 minutes after registration opened.</description>
     </item>
     
   </channel>
