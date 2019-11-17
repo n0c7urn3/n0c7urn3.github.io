@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>doctors on n0c7urn3</title>
+    <link>/tags/doctors/</link>
+    <description>Recent content in doctors on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Sun, 26 May 2019 06:20:07 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/doctors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Importance of Taking Care of One&#39;s Health</title>
+      <link>/posts/2019-05-26-importance-of-taking/</link>
+      <pubDate>Sun, 26 May 2019 06:20:07 -0600</pubDate>
+      
+      <guid>/posts/2019-05-26-importance-of-taking/</guid>
+      <description>Yay, first &amp;ldquo;Personal&amp;rdquo; category post!
+So, I&amp;rsquo;m definitely not &amp;ldquo;cool&amp;rdquo; enough to have people tracking my every move (except for my assigned FBI agent. Hi!), but if you look at my #100daysofcode tracker, you might notice only a single tally mark since the original publication, and a total of &amp;ldquo;1.5.&amp;rdquo; How could I have completed 1.5 days of code?
+Well, I got sick. It&amp;rsquo;s just a cold, but colds knock me out pretty bad, and they&amp;rsquo;re viruses, so not much can be done about them outside of fluids/rest (technically, I suppose antibiotics could treat them, but I&amp;rsquo;m not contributing to the overuse of antibiotics).</description>
+    </item>
+    
+  </channel>
+</rss>

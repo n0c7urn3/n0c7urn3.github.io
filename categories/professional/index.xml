@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>professional on n0c7urn3</title>
+    <link>/categories/professional/</link>
+    <description>Recent content in professional on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Sun, 19 May 2019 08:46:35 -0600</lastBuildDate>
+    
+	<atom:link href="/categories/professional/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>100 Days of Code</title>
+      <link>/posts/2019-05-19-100-days-of-code/</link>
+      <pubDate>Sun, 19 May 2019 08:46:35 -0600</pubDate>
+      
+      <guid>/posts/2019-05-19-100-days-of-code/</guid>
+      <description>I have decided to take part in #100daysofcode (as a start). I intend to work my way through the curriculum at FreeCodeCamp, in part because they offer fairly comprehensive web development courses, and in part because they get you in contact with non-profits to donate your time and skills, and I want to do good in the world. Yes, I do want the ability to add these items to my portfolio, but I want so badly to work on something I can believe in.</description>
+    </item>
+    
+    <item>
+      <title>A Work Anniversary</title>
+      <link>/posts/2019-05-09-a-work-anniversary/</link>
+      <pubDate>Thu, 09 May 2019 16:07:17 -0600</pubDate>
+      
+      <guid>/posts/2019-05-09-a-work-anniversary/</guid>
+      <description>Two years ago today, I walked into CenturyLink for my first day. I was nervous as hell, and, coming out of the MSP/desktop support space, I wasn&amp;rsquo;t sure if I was going to be able to do the work, but a friend of mine that I met while attending ITT knew I was looking and referred me.
+Here&amp;rsquo;s the thing, she said I should do it before we ever even finished our degrees, and that was back in 2013.</description>
+    </item>
+    
+    <item>
+      <title>Hardening</title>
+      <link>/posts/2019-05-03-hardening/</link>
+      <pubDate>Fri, 03 May 2019 08:28:04 -0600</pubDate>
+      
+      <guid>/posts/2019-05-03-hardening/</guid>
+      <description>I will not purport to be an expert on hardening systems, especially since this is really my first attempt to do so. I know I&amp;rsquo;ve done a bit more than some, especially since alot of people just use the default and they&amp;rsquo;re done. I also know I&amp;rsquo;ve probably got quite a bit more I can do.
+The first thing I did (which really should not have been the first thing I did, as you&amp;rsquo;ll see my order to be a bit flawed on priority) was to install and enable an SSL certificate.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up My Site From Scratch</title>
+      <link>/posts/2019-05-02-site/</link>
+      <pubDate>Thu, 02 May 2019 17:54:54 -0600</pubDate>
+      
+      <guid>/posts/2019-05-02-site/</guid>
+      <description>I&amp;rsquo;ve made a few websites in the past: A website called Newb Sec that I and a friend were going to use as a blog together (that would have satisfied many of the goals for this website), and a website for a residential computer repair business that I was trying to start as a means to try to transition into working for myself (which was misconceived for the amount of time I actually had to dedicate to it, working a full time job as is, and going to school full time).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>n0c7urn3</title>
+    <link>/</link>
+    <description>Recent content on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Sun, 16 Jun 2019 12:51:54 -0600</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fathers Day</title>
+      <link>/posts/2019-06-16-fathers-day/</link>
+      <pubDate>Sun, 16 Jun 2019 12:51:54 -0600</pubDate>
+      
+      <guid>/posts/2019-06-16-fathers-day/</guid>
+      <description>As a warning, this post has content relating to death, depression, and alcohol abuse.
+I resented my father. Past tense. For a couple of reasons. The obvious one is that he passed shortly before I turned 18. The other reason is that I&amp;rsquo;ve come to terms with our differences.
+My father loved me. He adored me. And he wanted the best for me (even threatened to leave my mother and take me with him during a time when her drug use was at one of its peaks), and he did his damndest to provide for me and my mother.</description>
+    </item>
+    
+    <item>
+      <title>Trusting Your Gut</title>
+      <link>/posts/2019-06-06-trusting-your-gut/</link>
+      <pubDate>Thu, 06 Jun 2019 16:13:49 -0600</pubDate>
+      
+      <guid>/posts/2019-06-06-trusting-your-gut/</guid>
+      <description>I think we all have a specific moment in which we learn to trust that little voice in the back of our heads; the one that tells us, &amp;ldquo;You should run.&amp;rdquo; Sometimes it&amp;rsquo;s wrong, and you have to look at the situation to figure that out, but sometimes listening to it is the best choice you can make.
+To provide some background, both of my parents were recovering alcoholics and drug addicts, and both attended our local Alcoholics Anonymous club (henceforth referred to as &amp;ldquo;the Club&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>Importance of Taking Care of One&#39;s Health</title>
+      <link>/posts/2019-05-26-importance-of-taking/</link>
+      <pubDate>Sun, 26 May 2019 06:20:07 -0600</pubDate>
+      
+      <guid>/posts/2019-05-26-importance-of-taking/</guid>
+      <description>Yay, first &amp;ldquo;Personal&amp;rdquo; category post!
+So, I&amp;rsquo;m definitely not &amp;ldquo;cool&amp;rdquo; enough to have people tracking my every move (except for my assigned FBI agent. Hi!), but if you look at my #100daysofcode tracker, you might notice only a single tally mark since the original publication, and a total of &amp;ldquo;1.5.&amp;rdquo; How could I have completed 1.5 days of code?
+Well, I got sick. It&amp;rsquo;s just a cold, but colds knock me out pretty bad, and they&amp;rsquo;re viruses, so not much can be done about them outside of fluids/rest (technically, I suppose antibiotics could treat them, but I&amp;rsquo;m not contributing to the overuse of antibiotics).</description>
+    </item>
+    
+    <item>
+      <title>100 Days of Code</title>
+      <link>/posts/2019-05-19-100-days-of-code/</link>
+      <pubDate>Sun, 19 May 2019 08:46:35 -0600</pubDate>
+      
+      <guid>/posts/2019-05-19-100-days-of-code/</guid>
+      <description>I have decided to take part in #100daysofcode (as a start). I intend to work my way through the curriculum at FreeCodeCamp, in part because they offer fairly comprehensive web development courses, and in part because they get you in contact with non-profits to donate your time and skills, and I want to do good in the world. Yes, I do want the ability to add these items to my portfolio, but I want so badly to work on something I can believe in.</description>
+    </item>
+    
+    <item>
+      <title>#100daysofcode</title>
+      <link>/100daysofcode/</link>
+      <pubDate>Sun, 19 May 2019 08:30:20 -0600</pubDate>
+      
+      <guid>/100daysofcode/</guid>
+      <description>I am currently participating in 100 days of code, with the goal of increasing my programming and development ability.
+Current project(s): Free Code Camp
+Calender 2019 May
+   Su Mo Tu We Th Fr Sa Total     ## ## ## 01 02 03 04              05 06 07 08 09 10 11              12 13 14 15 16 17 18              19 20 21 22 23 24 25    1 * FCC  .</description>
+    </item>
+    
+    <item>
+      <title>Otwbandit</title>
+      <link>/wrups/otwbandit/</link>
+      <pubDate>Mon, 13 May 2019 08:07:47 -0600</pubDate>
+      
+      <guid>/wrups/otwbandit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Work Anniversary</title>
+      <link>/posts/2019-05-09-a-work-anniversary/</link>
+      <pubDate>Thu, 09 May 2019 16:07:17 -0600</pubDate>
+      
+      <guid>/posts/2019-05-09-a-work-anniversary/</guid>
+      <description>Two years ago today, I walked into CenturyLink for my first day. I was nervous as hell, and, coming out of the MSP/desktop support space, I wasn&amp;rsquo;t sure if I was going to be able to do the work, but a friend of mine that I met while attending ITT knew I was looking and referred me.
+Here&amp;rsquo;s the thing, she said I should do it before we ever even finished our degrees, and that was back in 2013.</description>
+    </item>
+    
+    <item>
+      <title>Hardening</title>
+      <link>/posts/2019-05-03-hardening/</link>
+      <pubDate>Fri, 03 May 2019 08:28:04 -0600</pubDate>
+      
+      <guid>/posts/2019-05-03-hardening/</guid>
+      <description>I will not purport to be an expert on hardening systems, especially since this is really my first attempt to do so. I know I&amp;rsquo;ve done a bit more than some, especially since alot of people just use the default and they&amp;rsquo;re done. I also know I&amp;rsquo;ve probably got quite a bit more I can do.
+The first thing I did (which really should not have been the first thing I did, as you&amp;rsquo;ll see my order to be a bit flawed on priority) was to install and enable an SSL certificate.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up My Site From Scratch</title>
+      <link>/posts/2019-05-02-site/</link>
+      <pubDate>Thu, 02 May 2019 17:54:54 -0600</pubDate>
+      
+      <guid>/posts/2019-05-02-site/</guid>
+      <description>I&amp;rsquo;ve made a few websites in the past: A website called Newb Sec that I and a friend were going to use as a blog together (that would have satisfied many of the goals for this website), and a website for a residential computer repair business that I was trying to start as a means to try to transition into working for myself (which was misconceived for the amount of time I actually had to dedicate to it, working a full time job as is, and going to school full time).</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sat, 27 Apr 2019 11:03:46 -0600</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am an IT specialist located in Denver, Colorado, with a strong interest in cyber-security. This blog is intended as a way to demonstrate my growth as a person and as a professional as I grow my skills and myself, as well as showcase my creations. The blog is focused on three focii:
+ Personal - Personal entries will be intended to demonstrate growth as a person as I move forward in life and deal with past issues.</description>
+    </item>
+    
+    <item>
+      <title>Placeholder</title>
+      <link>/placeholder/</link>
+      <pubDate>Sat, 27 Apr 2019 10:55:59 -0600</pubDate>
+      
+      <guid>/placeholder/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at rhoncus orci, in tincidunt elit. Nullam eu sapien eget turpis tincidunt pharetra sed quis lacus. Donec laoreet, est vitae facilisis vulputate, elit neque iaculis nisi, quis euismod risus odio sit amet arcu. Aliquam erat volutpat. Praesent enim ante, consectetur et accumsan aliquam, efficitur vitae leo. Maecenas sapien neque, pharetra sed lacus sed, mattis viverra leo. Curabitur dapibus erat ullamcorper felis semper, sed imperdiet orci bibendum.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>Justin Brenneman Denver, CO | justin@n0c7urn3.me
+Summary I am an IT specialist located in Denver, Colorado, with a strong interest in cyber-security. Professionally, I have a history providing support and repair services to a variety of business through my work in the managed service provider and telecom/ISP spaces, and have supported a wide range of products and services.
+Education Bachelor of Science | 2018 | Colorado Technical University
+ Major: Cybersecurity</description>
+    </item>
+    
+  </channel>
+</rss>

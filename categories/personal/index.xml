@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on n0c7urn3</title>
+    <link>/categories/personal/</link>
+    <description>Recent content in personal on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Sun, 16 Jun 2019 12:51:54 -0600</lastBuildDate>
+    
+	<atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fathers Day</title>
+      <link>/posts/2019-06-16-fathers-day/</link>
+      <pubDate>Sun, 16 Jun 2019 12:51:54 -0600</pubDate>
+      
+      <guid>/posts/2019-06-16-fathers-day/</guid>
+      <description>As a warning, this post has content relating to death, depression, and alcohol abuse.
+I resented my father. Past tense. For a couple of reasons. The obvious one is that he passed shortly before I turned 18. The other reason is that I&amp;rsquo;ve come to terms with our differences.
+My father loved me. He adored me. And he wanted the best for me (even threatened to leave my mother and take me with him during a time when her drug use was at one of its peaks), and he did his damndest to provide for me and my mother.</description>
+    </item>
+    
+    <item>
+      <title>Trusting Your Gut</title>
+      <link>/posts/2019-06-06-trusting-your-gut/</link>
+      <pubDate>Thu, 06 Jun 2019 16:13:49 -0600</pubDate>
+      
+      <guid>/posts/2019-06-06-trusting-your-gut/</guid>
+      <description>I think we all have a specific moment in which we learn to trust that little voice in the back of our heads; the one that tells us, &amp;ldquo;You should run.&amp;rdquo; Sometimes it&amp;rsquo;s wrong, and you have to look at the situation to figure that out, but sometimes listening to it is the best choice you can make.
+To provide some background, both of my parents were recovering alcoholics and drug addicts, and both attended our local Alcoholics Anonymous club (henceforth referred to as &amp;ldquo;the Club&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>Importance of Taking Care of One&#39;s Health</title>
+      <link>/posts/2019-05-26-importance-of-taking/</link>
+      <pubDate>Sun, 26 May 2019 06:20:07 -0600</pubDate>
+      
+      <guid>/posts/2019-05-26-importance-of-taking/</guid>
+      <description>Yay, first &amp;ldquo;Personal&amp;rdquo; category post!
+So, I&amp;rsquo;m definitely not &amp;ldquo;cool&amp;rdquo; enough to have people tracking my every move (except for my assigned FBI agent. Hi!), but if you look at my #100daysofcode tracker, you might notice only a single tally mark since the original publication, and a total of &amp;ldquo;1.5.&amp;rdquo; How could I have completed 1.5 days of code?
+Well, I got sick. It&amp;rsquo;s just a cold, but colds knock me out pretty bad, and they&amp;rsquo;re viruses, so not much can be done about them outside of fluids/rest (technically, I suppose antibiotics could treat them, but I&amp;rsquo;m not contributing to the overuse of antibiotics).</description>
+    </item>
+    
+    <item>
+      <title>Placeholder</title>
+      <link>/placeholder/</link>
+      <pubDate>Sat, 27 Apr 2019 10:55:59 -0600</pubDate>
+      
+      <guid>/placeholder/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at rhoncus orci, in tincidunt elit. Nullam eu sapien eget turpis tincidunt pharetra sed quis lacus. Donec laoreet, est vitae facilisis vulputate, elit neque iaculis nisi, quis euismod risus odio sit amet arcu. Aliquam erat volutpat. Praesent enim ante, consectetur et accumsan aliquam, efficitur vitae leo. Maecenas sapien neque, pharetra sed lacus sed, mattis viverra leo. Curabitur dapibus erat ullamcorper felis semper, sed imperdiet orci bibendum.</description>
+    </item>
+    
+  </channel>
+</rss>

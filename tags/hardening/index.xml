@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardening on n0c7urn3</title>
+    <link>/tags/hardening/</link>
+    <description>Recent content in hardening on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Fri, 03 May 2019 08:28:04 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/hardening/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hardening</title>
+      <link>/posts/2019-05-03-hardening/</link>
+      <pubDate>Fri, 03 May 2019 08:28:04 -0600</pubDate>
+      
+      <guid>/posts/2019-05-03-hardening/</guid>
+      <description>I will not purport to be an expert on hardening systems, especially since this is really my first attempt to do so. I know I&amp;rsquo;ve done a bit more than some, especially since alot of people just use the default and they&amp;rsquo;re done. I also know I&amp;rsquo;ve probably got quite a bit more I can do.
+The first thing I did (which really should not have been the first thing I did, as you&amp;rsquo;ll see my order to be a bit flawed on priority) was to install and enable an SSL certificate.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wrups on n0c7urn3</title>
+    <link>/wrups/</link>
+    <description>Recent content in Wrups on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Mon, 13 May 2019 08:07:47 -0600</lastBuildDate>
+    
+	<atom:link href="/wrups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Otwbandit</title>
+      <link>/wrups/otwbandit/</link>
+      <pubDate>Mon, 13 May 2019 08:07:47 -0600</pubDate>
+      
+      <guid>/wrups/otwbandit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

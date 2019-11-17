@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on n0c7urn3</title>
+    <link>/tags/programming/</link>
+    <description>Recent content in programming on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Sun, 19 May 2019 08:46:35 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>100 Days of Code</title>
+      <link>/posts/2019-05-19-100-days-of-code/</link>
+      <pubDate>Sun, 19 May 2019 08:46:35 -0600</pubDate>
+      
+      <guid>/posts/2019-05-19-100-days-of-code/</guid>
+      <description>I have decided to take part in #100daysofcode (as a start). I intend to work my way through the curriculum at FreeCodeCamp, in part because they offer fairly comprehensive web development courses, and in part because they get you in contact with non-profits to donate your time and skills, and I want to do good in the world. Yes, I do want the ability to add these items to my portfolio, but I want so badly to work on something I can believe in.</description>
+    </item>
+    
+  </channel>
+</rss>

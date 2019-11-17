@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Hardening :: n0c7urn3</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="I will not purport to be an expert on hardening systems, especially since this is really my first attempt to do so. I know I&amp;rsquo;ve done a bit more than some, especially since alot of people just use the default and they&amp;rsquo;re done. I also know I&amp;rsquo;ve probably got quite a bit more I can do.
+The first thing I did (which really should not have been the first thing I did, as you&amp;rsquo;ll see my order to be a bit flawed on priority) was to install and enable an SSL certificate."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2019-05-03-hardening/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/blue.css">
+
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Hardening :: n0c7urn3 — " />
+<meta name="twitter:description" content="I will not purport to be an expert on hardening systems, especially since this is really my first attempt to do so. I know I&amp;rsquo;ve done a bit more than some, especially since alot of people just use the default and they&amp;rsquo;re done. I also know I&amp;rsquo;ve probably got quite a bit more I can do.
+The first thing I did (which really should not have been the first thing I did, as you&amp;rsquo;ll see my order to be a bit flawed on priority) was to install and enable an SSL certificate." />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Hardening :: n0c7urn3 — ">
+<meta property="og:description" content="I will not purport to be an expert on hardening systems, especially since this is really my first attempt to do so. I know I&amp;rsquo;ve done a bit more than some, especially since alot of people just use the default and they&amp;rsquo;re done. I also know I&amp;rsquo;ve probably got quite a bit more I can do.
+The first thing I did (which really should not have been the first thing I did, as you&amp;rsquo;ll see my order to be a bit flawed on priority) was to install and enable an SSL certificate." />
+<meta property="og:url" content="/posts/2019-05-03-hardening/" />
+<meta property="og:site_name" content="Hardening" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:section" content="professional" />
+<meta property="article:published_time" content="2019-05-03 08:28:04 -0600 MDT" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    n0c7urn3
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/100daysofcode">#100daysofcode</a></li>
+        
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/_n0c7urn3_">Twitter</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/100daysofcode">#100daysofcode</a></li>
+      
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/_n0c7urn3_">Twitter</a></li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/2019-05-03-hardening/">Hardening</a></h1>
+  <div class="post-meta">
+    <span class="post-date">
+      2019-05-03
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/linux/">linux</a>&nbsp;
+    
+    #<a href="/tags/site/">site</a>&nbsp;
+    
+    #<a href="/tags/hardening/">hardening</a>&nbsp;
+    
+    #<a href="/tags/ssl/">ssl</a>&nbsp;
+    
+    #<a href="/tags/best-practices/">best practices</a>&nbsp;
+    
+    #<a href="/tags/lets-encrypt/">Let&#39;s Encrypt</a>&nbsp;
+    
+    #<a href="/tags/nginx/">nginx</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  <div class="post-content">
+    <p>I will not purport to be an expert on hardening systems, especially since this is really my first attempt to do so.  I know I&rsquo;ve done a bit more than some, especially since alot of people just use the default and they&rsquo;re done.  I also know I&rsquo;ve probably got quite a bit more I can do.</p>
+
+<p>The first thing I did (which really should not have been the first thing I did, as you&rsquo;ll see my order to be a bit flawed on priority) was to install and enable an SSL certificate.  This was made super easy thanks to Let&rsquo;s Encrypt and Certbot.</p>
+
+<p>Let&rsquo;s Encrypt is a free and open certificate authority intended for the public&rsquo;s benefit.  From Let&rsquo;s Encrypt&rsquo;s own <a href="https://letsencrypt.org/about/">website</a>, their principles are:</p>
+
+<blockquote>
+<p>Free: Anyone who owns a domain name can use Let’s Encrypt to obtain a trusted certificate at zero cost.</p>
+
+<p>Automatic: Software running on a web server can interact with Let’s Encrypt to painlessly obtain a certificate, securely configure it for use, and automatically take care of renewal.</p>
+
+<p>Secure: Let’s Encrypt will serve as a platform for advancing TLS security best practices, both on the CA side and by helping site operators properly secure their servers.</p>
+
+<p>Transparent: All certificates issued or revoked will be publicly recorded and available for anyone to inspect.</p>
+
+<p>Open: The automatic issuance and renewal protocol will be published as an open standard that others can adopt.</p>
+
+<p>Cooperative: Much like the underlying Internet protocols themselves, Let’s Encrypt is a joint effort to benefit the community, beyond the control of any one organization.</p>
+</blockquote>
+
+<p>The Electronic Frontier Foundation even offers a tool (available in most Linux repositories) in order to automate registration and installation.  You just select your webserver application and Operating System, and after a little bit more information, voila, you have a TSL-enabled website (check out my smexy green lock in the address bar)!  Tools like this really lower the barrier to enabling encryption across the net, and any security practitioner knows, the harder it is to be secure, the fewer people will take the steps.</p>
+
+<p>In reality, I didn&rsquo;t really need to do this; I&rsquo;m just serving up static pages.  I don&rsquo;t have any interactivity on the site, I don&rsquo;t have some admin page to log into (nor do I have any login pages period!).  Beyond the static pages, I don&rsquo;t have any dynamic content or any sensitive content.  So why do it?  Best practices?  Because the more encrypted traffic there is, the better?  There are a few ideals that we can attribute this to, but that may be a post for another time.</p>
+
+<p>The second hardening technique I took was to limit the amount of information that nginx serves in its header banner.  Why?  Leaking specific version and OS information in the banner can help an attacker target my server specifically, and attackers love low hanging fruit.  Hiding that banner information at least gives them a little bit more guesswork they need to do.  I&rsquo;ve also mitigated this a bit more with a custom error page, since nginx will by default reveal the version and OS as well.</p>
+
+<p>This is more or less as far as I&rsquo;ve gotten with hardening nginx, mostly because a lot of the guides I&rsquo;ve looked at so far assume one is serving up full webapps.  I may be a bit misguided in stopping here, but time will tell as I grow my knowledge base.</p>
+
+<p>At this point, I&rsquo;ve moved on to securing my OS.  The first thing I did here (and the first thing I should have done, period) was to create a second user for SSH access and disable logging in as root.  Yes, since standing the server up 5 days ago until this morning, I&rsquo;d been logging in as root.  Granted, I&rsquo;ve been using a reasonably secure password for the account, and set up logging in via RSA keypair, but still.  Big no no!  And just like before, I generated a new keypair for the new username and updated my blog update script to reflect it as well.</p>
+
+<p>I&rsquo;ve also secured the shared memory to further limit the attack surface, and make it harder to attack the services running on the server.</p>
+
+<p>The next step was less of a mitigation, and more of a deterrent:  Add a banner message warning of prosecution for unauthorized users.  This acts as a detterent for anybody trying to break in via ssh, and removes some plausible deniability from attackers (No trying to say &ldquo;I didn&rsquo;t think it was a big deal&rdquo; or &ldquo;I wasn&rsquo;t made aware I <em>shouldn&rsquo;t</em> log in&rdquo;).  I sincerely hope it&rsquo;s not something I ever have to pursue.</p>
+
+<p>I&rsquo;ve also modified the host file in order to attempt to prevent spoofing of the IP address.  Although, in digging further into that, it sounds like it&rsquo;s something that&rsquo;s more snake oil than anything else.  It doesn&rsquo;t do much to actually prevent spoofing, but just adds more checks on weak authentication methods that I don&rsquo;t plan to use.  Still, it shouldn&rsquo;t hurt any thing to leave it in.</p>
+
+<p>When all is said and done, however, this is only the start, and will never, ever be done.  It will never, ever be hack-proof, and as time has shown, even claiming that puts a nuclear bullseye on your back, visible from space.  As I continue to grow, so will the site, and so will my security posture surrounding it.</p>
+
+<ul>
+<li>n0c7urn3</li>
+</ul>
+
+  </div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      <span class="button previous">
+        <a href="/posts/2019-05-09-a-work-anniversary/">
+          <span class="button__icon">←</span>
+          <span class="button__text">A Work Anniversary</span>
+        </a>
+      </span>
+      
+      
+      <span class="button next">
+        <a href="/posts/2019-05-02-site/">
+          <span class="button__text">Setting Up My Site From Scratch</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

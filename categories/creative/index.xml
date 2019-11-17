@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>creative on n0c7urn3</title>
+    <link>/categories/creative/</link>
+    <description>Recent content in creative on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Sat, 27 Apr 2019 10:55:59 -0600</lastBuildDate>
+    
+	<atom:link href="/categories/creative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Placeholder</title>
+      <link>/placeholder/</link>
+      <pubDate>Sat, 27 Apr 2019 10:55:59 -0600</pubDate>
+      
+      <guid>/placeholder/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at rhoncus orci, in tincidunt elit. Nullam eu sapien eget turpis tincidunt pharetra sed quis lacus. Donec laoreet, est vitae facilisis vulputate, elit neque iaculis nisi, quis euismod risus odio sit amet arcu. Aliquam erat volutpat. Praesent enim ante, consectetur et accumsan aliquam, efficitur vitae leo. Maecenas sapien neque, pharetra sed lacus sed, mattis viverra leo. Curabitur dapibus erat ullamcorper felis semper, sed imperdiet orci bibendum.</description>
+    </item>
+    
+  </channel>
+</rss>
