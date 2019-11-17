@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/defcon-2019-dayneg1-and-day-0/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/defcon/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pre-con/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/travel/</loc>
+    <lastmod>2019-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2019-06-16T12:51:54-06:00</lastmod>
   </url>
@@ -23,22 +58,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-06-16T12:51:54-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/personal/</loc>
-    <lastmod>2019-06-16T12:51:54-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-06-16T12:51:54-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-06-16T12:51:54-06:00</lastmod>
   </url>
   
@@ -235,6 +255,22 @@
   <url>
     <loc>/resume/</loc>
     <lastmod>2019-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/defcon-2019-day-four/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/defcon-2019-day-one/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/defcon-2019-day-three/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/defcon-2019-day-two/</loc>
   </url>
   
   <url>

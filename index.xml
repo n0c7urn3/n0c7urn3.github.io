@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Sun, 16 Jun 2019 12:51:54 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DC 2019 - Days -1 and 0</title>
+      <link>/posts/defcon-2019-dayneg1-and-day-0/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/defcon-2019-dayneg1-and-day-0/</guid>
+      <description>Day -1: The Drive I have forgotten how much the drive to Las Vegas takes it out of you. My first time in Vegas was just for a friend’s birthday party. We (my friend, her boyfriend, and I) piled into my Subaru Forester, and off we went. We took turns driving on the way there, and on the way back, I decided to challenge myself. I drove the entire way home myself, and we only stopped for gas.</description>
+    </item>
     
     <item>
       <title>Fathers Day</title>
@@ -132,6 +141,42 @@ The first thing I did (which really should not have been the first thing I did, 
 Summary I am an IT specialist located in Denver, Colorado, with a strong interest in cyber-security. Professionally, I have a history providing support and repair services to a variety of business through my work in the managed service provider and telecom/ISP spaces, and have supported a wide range of products and services.
 Education Bachelor of Science | 2018 | Colorado Technical University
  Major: Cybersecurity</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/defcon-2019-day-four/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/defcon-2019-day-four/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/defcon-2019-day-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/defcon-2019-day-one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/defcon-2019-day-three/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/defcon-2019-day-three/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/defcon-2019-day-two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/defcon-2019-day-two/</guid>
+      <description></description>
     </item>
     
     <item>
