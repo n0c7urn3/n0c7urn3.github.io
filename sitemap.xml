@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/day-4/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
@@ -19,6 +24,11 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/personal/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,12 +58,22 @@
   </url>
   
   <url>
+    <loc>/posts/-2019-08-17-defcon-2019-day-three/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/2019-08-17-defcon-2019-day-three/</loc>
     <lastmod>2019-08-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/2019-08-17-defcon-2019-day-two/</loc>
+    <lastmod>2019-08-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/defcn/</loc>
     <lastmod>2019-08-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,11 +98,6 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-06-16T12:51:54-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/daddy-issues/</loc>
     <lastmod>2019-06-16T12:51:54-06:00</lastmod>
   </url>
@@ -94,11 +109,6 @@
   
   <url>
     <loc>/posts/2019-06-16-fathers-day/</loc>
-    <lastmod>2019-06-16T12:51:54-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/personal/</loc>
     <lastmod>2019-06-16T12:51:54-06:00</lastmod>
   </url>
   
