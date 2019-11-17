@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Sun, 16 Jun 2019 12:51:54 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2019 10:06:43 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test</title>
+      <link>/posts/test/</link>
+      <pubDate>Sun, 17 Nov 2019 10:06:43 -0700</pubDate>
+      
+      <guid>/posts/test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fathers Day</title>
@@ -132,6 +141,15 @@ The first thing I did (which really should not have been the first thing I did, 
 Summary I am an IT specialist located in Denver, Colorado, with a strong interest in cyber-security. Professionally, I have a history providing support and repair services to a variety of business through my work in the managed service provider and telecom/ISP spaces, and have supported a wide range of products and services.
 Education Bachelor of Science | 2018 | Colorado Technical University
  Major: Cybersecurity</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/helloworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/helloworld/</guid>
+      <description></description>
     </item>
     
   </channel>
