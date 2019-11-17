@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Sun, 17 Nov 2019 10:06:43 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 12:51:54 -0600</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Test</title>
-      <link>/posts/test/</link>
-      <pubDate>Sun, 17 Nov 2019 10:06:43 -0700</pubDate>
-      
-      <guid>/posts/test/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Fathers Day</title>
