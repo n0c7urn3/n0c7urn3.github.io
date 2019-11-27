@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Sun, 17 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 07:55:24 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 1</title>
+      <link>/posts/2019-11-27-ir-plan1/</link>
+      <pubDate>Wed, 27 Nov 2019 07:55:24 -0700</pubDate>
+      
+      <guid>/posts/2019-11-27-ir-plan1/</guid>
+      <description>The following is part 1 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Abstract The role of incident response at any organization is an important one.</description>
+    </item>
     
     <item>
       <title>Quick update since August</title>

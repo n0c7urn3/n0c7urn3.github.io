@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 1 :: n0c7urn3</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="The following is part 1 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Abstract The role of incident response at any organization is an important one."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2019-11-27-ir-plan1/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 1 :: n0c7urn3 — " />
+<meta name="twitter:description" content="The following is part 1 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Abstract The role of incident response at any organization is an important one." />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 1 :: n0c7urn3 — ">
+<meta property="og:description" content="The following is part 1 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Abstract The role of incident response at any organization is an important one." />
+<meta property="og:url" content="/posts/2019-11-27-ir-plan1/" />
+<meta property="og:site_name" content="Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 1" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:section" content="technical" />
+<meta property="article:published_time" content="2019-11-27 07:55:24 -0700 MST" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    n0c7urn3
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/_n0c7urn3_">Twitter</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/_n0c7urn3_">Twitter</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/2019-11-27-ir-plan1/">Bachelor&rsquo;s Degree Capstone Project:  Incident Response Plan part 1</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2019-11-27
+    </span>
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/incident-response/">incident response</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  <div class="post-content">
+    
+
+<blockquote>
+<p>The following is part 1 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018.  I decided to publish it to demonstrate the work I&rsquo;ve done, as well as in the hope that someone will get some benefit from it.</p>
+</blockquote>
+
+<h1 id="abstract">Abstract</h1>
+
+<p>The role of incident response at any organization is an important one.  As was stated by the former CEO of Cisco, John Chambers, “There are two types of companies:  Those who know they have been hacked, and those who don’t yet know that they have been hacked” (2015).  The intent of this statement is to say that most companies will, at some point, be breached.  And although most companies will at some point be breached, the key to recovering from a breach is to enact strong policies and procedures so that the breach is detected, mitigated, remediated, and future breaches following the same vector are prevented (through policy and procedure review and training).</p>
+
+<h1 id="background">Background</h1>
+
+<p>With the understanding that the occurrence of an incident is all but certain, the existence of a proper incident response program (including policies and procedures) can mean the difference between a speedy recovery with minimal damage sustained and a business dissolving event, and knowing that even with a well defined incident response program and doing everything right, the damage that the business may still sustain can open doors for improvement instead of blame, as all incident response programs should account for “failure” (for lack of a better word) in the face of an advanced attacker and detail proper paths for improvement.</p>
+
+<p>Incidents take a variety of different forms, with the Boston University defining five primary types:  Compromised Computing Resources (which include OS account and user account compromises), Email based abuse (which includes spam and phishing attacks), Copyright Infringment, Network and Resource Abuse (which includes network scanning and Denial of Service attacks), and Resource misconfiguration and abuses (which is a wide category including software vulnerabilities and improperly secured resources) (n.d.).  Additionally, the Boston University defines severity independent of incident type, with a variety of factors deciding the incident severity, including safety concerns for people and property, loss and exposure of personal or proprietary data, contract and law violations, interruption of service, and the number of affected parties (n.d.).</p>
+
+<h1 id="section-1-policies-procedures-roles-and-responsibilities">Section 1:  Policies, Procedures, Roles, and Responsibilities</h1>
+
+<h2 id="policies">Policies</h2>
+
+<p>The following policy is based off of the Incident response plan template provided by the Incident Response Consortium.</p>
+
+<h3 id="incident-response-plan-introduction-and-commentary">Incident Response Plan Introduction and Commentary</h3>
+
+<p>To comply with regulatory requirements and industry best practices, and in the interest of protecting the confidentiality, integrity, and availability of critical client data and computing resources, $Company has implemented various procedures, policies and guidelines.  This Incident Response Policy is one such policy document intended to assist $Company in addressing security incidents.  As the incident response team matures, this plan shall be refined in order to prepare $Company against evolving threats and mitigate risk.</p>
+
+<p>As new technologies become available and new reguirements are enforced, this document will need to be reviewed no less than once anually.  Review shall be performed by members of the security team, under direction of the Chief Information Security Officer.</p>
+
+<h3 id="incident-response-plan-overview">Incident Response Plan Overview</h3>
+
+<p>There are many different security incidents that can occur and not all security incidents are equal in nature, as different incidents may have a variety of impact levels.  However, most incident response plans typically follow the same phases, and the goals and objectives of each phase should be well understood by the incident response team.  The different phases of a security incident response at $Company are as follows:</p>
+
+<h3 id="prepare">Prepare</h3>
+
+<p>The Incident Reponse teams shall be well prepared to the best of their ability.  The Incident Reponse teams shall be well defined, with each member having well defined roles, and shall include security officers, system analysts, and human resources personnel, and contact information for those persons shall be made available, as well as that for key partners, business owners, and outside support analysts.  Within and without the incident response teams, end users and analysts shall be trained at an appropriate level, and login banners and warning messages shall be posted when an end user may be accessing sensitive data or systems.</p>
+
+<p>In the interest of being prepared for a variety of incidents, backups shall be required for critical infrastructure and for the data of key personnel within $Company in the event that data is lost or integrity cannot be assured.  The backups shall follow the 3-2-1 plan:  Three copies, two mediums, one offsite location (Harnedy, 2016).  Additionally, jump bags shall be made available to incident response personnel in the event that they need to mobilize quickly, and shall include, but not be limited to, the following:  An empty notebook for documentation in the field, boot CDs to analyze hard drives or recover passwords, and petty cash in the event additional supplies or transportation is required.</p>
+
+<h3 id="identify">Identify</h3>
+
+<p>Incident Response teams may be notified of security incidents from a variety of sources.  These may include end users, support teams, or even clients.  When Incident Response teams are alerted to the incident and then respond once the trouble is validated.  Following validation, the Incident Response team shall assemble and begin the Incident Response procedures.  It is suggested to involve all necessary personnel in order to save as many files and records and begin documentation as soon as possible.  Although Incident Response teams carry out the plan of action, it is up to business owners to determine the end goals.</p>
+
+<h3 id="contain">Contain</h3>
+
+<p>Once the Incident Response is mobilized, their first goal shall be to contain the incident, and this may be accomplished in a variety of ways depending on the nature of the incident and goals defined by the business owners.  In many cases, the goals may include maintaining the forensic evidence of an incident in order to prevent further incidents and prosecute, if applicable and practical.  In these cases, the security team shall work to obtain, preserve, and analyze as much system information as they are able, including, but not limited to key files and backup images of compromised systems.</p>
+
+<p>In any case, the incident shall be contained as soon as possible to prevent further or increased severity of the incident.  Documenting hardware and software inventory, as well as access levels of users and machines, may aid in containment, as knowing what and where the affected systems are, and what they are able to access, enables the Incident Response team to respond appropriately.  Such responses may include removal or disabling of wired LAN connections or wireless radios, and the team may also check nearby systems (both physically and in terms of logical access) for further incident symptoms.</p>
+
+<p>If the incident is large scale, containment actions may include application of security patches, updating of antivirus signatures, closing firewall ports, disabling of compromised accounts, vulnerability scans, and the changing of passwords.</p>
+
+<h3 id="eradicate">Eradicate</h3>
+
+<p>Eradication procedures will often be performed specific to the incident type.  Common considerations may include the use of boot CDs to access data on compromised systems, hardening of rebuilt systems, testing of backups prior to restoration, incident monitoring, and further documentation.</p>
+
+<h3 id="recover">Recover</h3>
+
+<p>During the recovery phase is when the incident response team works to return the affected systems to production.  Again, specific procedures are incident dependent, and are also affected by the business owners.  Common considerations include testing of the affected systems with end users, timing of the safe return, notification of affected customers, addressing customer concerns, public relations and media handling, and continued monitoring.</p>
+
+<h3 id="review">Review</h3>
+
+<p>The final phase is intended for $Company to prepare for future security incidents.  Final reports shall be created describing the nature of the incident and how it was handling.  The final report shall also include suggestions for handling future incidents, including what procedures worked, what procedures didn’t work, and how the incident occurred (Incident Response Consortium, n.d.).</p>
+
+<h2 id="procedures">Procedures</h2>
+
+<p>Although different incidents will prompt the use of different incident response procedures, each procedure should follow a similar structure and address the following items.  The following procedure is based on the Incident response plan example provided by the California Department of Technology (n.d.):</p>
+
+<p>The discovering party will engage the IT department prior to engaging the incident response teams.  All end users shall be provided with contact for the IT department, appropriate to level of access.  Standard employees will be instructed to contact the help desk, while employees with access to sensitive data may be instructed to contact higher level IT personnel.  The IT department shall maintain <sup>24</sup>&frasl;<sub>7</sub> presence including on call personnel.  Employees within the IT department will have different contact procedures.</p>
+
+<p>If the IT department is alerted to the presence of an incident, active or inactive, they shall document the details of the call, including the name of the caller, the time of the call, the caller’s contact information, and the nature of the incident.  Details relevant to the nature include the equipment and personnel involved, location of the equipment and personnel, both physically and on-network (if known), how the incident was detected, and what behavior was observed that alerted the reporting party.  The IT department personnel will then alert the Incident Response teams.</p>
+
+<p>The Incident Response teams will collect similar information from the IT department personnel, but, if known, will additionally include whether the affected systems are business critical, the severity of the potential impact, information of affected/targeted systems (including name, IP address, location, and function), and any available information regarding the origin or cause of the incident.</p>
+
+<p>Upon collection of the required information, the Incident Response team will meet to discuss and triage the situation and determine the appropriate response.  Considerations include validation of the incident, duration (how long did the incident last and is it still ongoing), what data or property was threatened, how critical is the affected data or property, potential impact of the incident, what systems are targeted, where are the systems located (physically and on network), did the incident breach the trusted network, how urgent is the incident, can the incident be quickly contained, will response alert the originating parties, do we care if we alert the originating parties, and what type of incident is occurring/has occurred.  Following discussion, a ticket for the incident shall be created and assigned a priority based on the severity.</p>
+
+<p>Specific response procedures will depend on the type of incident, but should address each phase defined in the Incident Response Policy (Preparation, Identification, Containment, Eradication, Recovery, and Review).  Different procedures may address, but are not limited to:  Worms, virii, system failure, active intrusion, inactive intrusion, system abuse, property theft, denial of service, spyware, and even natural disaster.  As needed, the Incident Response teams may create additional procedures, and if no applicable procedure exists, restorative actions must be documented and used to establish new procedures.</p>
+
+<p>Incident Response teams shall analyze the incident and affected systems in order to determine origin and recommend mitigation techniques.  Team members shall use forensic techniques and interview witnesses and victims to determine how the incident was caused.  Interviews and evidence examination shall only be conducted by authorized personnel, and such authorization may vary depending on the nature of the incident.  Following analysis, team members will draft changes in order to prevent any future occurences, and such changes may take the form of policy and procedure change, or the implementation of new technologies and submit these changes to management for review and approval.  Upon approval, the changes will be implemented according to existing change management policy.</p>
+
+<p>No matter the type of incident, the Incident Response teams shall collect and preserve any evidence available prior to restoration of affected systems.  Restoration phase activities should be included in incident specific procedures, but may include rebuilding and hardening of affected systems, restoration of data from tested backups, forced password changes of affected users and systems, patching, verification of anti-malware (including updates and monitoring), and ensure the system is logging events according to the monitoring policy in place.</p>
+
+<p>Documentation of the incident shall include a summary of the incident that details how the incident was discovered, the category of the incident, how the incident occurred, the origin of the incident, details of the response plan, what actions were taken in response, and whether or not the response was effective (including what actions were and were not effective/useful or didn’t work).  In addition to details of the incident, documentation shall also include any evidence collected during the response, and shall be held as long as necessary to complete prosecution beyond appeal, if applicable.</p>
+
+<p>During the incident and following conclusion, proper authorities shall be notified.  Notice shall include details of the incident, as well as assessed damage and recovery cost.</p>
+
+<p>Following conclusion of the incident, the Incident Response team shall review and update existing procedures and policies.  Considerations shall include whether policy could have prevented the intrusion, whether existing policy or procedure was ignored and allowed the intrusion, what controls could be implemented to enforce policy and procedures, was the response appropriate and how could it be improved, was every appropriate party informed in a timely manner, were incident response procedures detailed and did the cover the entirety of the situation, how could the procedures be improved, have changes been made to prevent future incidents, and have all systems been restored according to the appropriate restoration procedure, what improvements can be made to security policy, and what lessons were learned from the experience?</p>
+
+<h2 id="roles-responsibilities">Roles &amp; Responsibilities</h2>
+
+<ol>
+<li>Helpdesk—triage and report potential incidents.</li>
+<li>Intrusion detection monitoring personnel—monitor intrusion detection systems and report potential incidents.</li>
+<li>System administrators—monitor and administer critical system infrastructure</li>
+<li>Firewall administrators—monitor and administer firewalls and report potential incidents</li>
+<li>Managers—coordinate incident response plans at each level, escalating as necessary.</li>
+<li>Outside sources—may include security service providers or outside analysts or forensic firms</li>
+</ol>
+
+  </div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      
+      <span class="button next">
+        <a href="/posts/2019-11-17-update/">
+          <span class="button__text">Quick update since August</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
