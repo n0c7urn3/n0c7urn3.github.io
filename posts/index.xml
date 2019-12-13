@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Wed, 27 Nov 2019 07:55:24 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 17:12:35 -0700</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 2</title>
+      <link>/posts/2019-12-12-ir-plan2/</link>
+      <pubDate>Thu, 12 Dec 2019 17:12:35 -0700</pubDate>
+      
+      <guid>/posts/2019-12-12-ir-plan2/</guid>
+      <description>The following is part 2 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Section 2: Data Governance Every organization should abide by a data governance program.</description>
+    </item>
     
     <item>
       <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 1</title>

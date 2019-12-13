@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Wed, 27 Nov 2019 07:55:24 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 17:12:35 -0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>incident response</title>
       <link>/tags/incident-response/</link>
-      <pubDate>Wed, 27 Nov 2019 07:55:24 -0700</pubDate>
+      <pubDate>Thu, 12 Dec 2019 17:12:35 -0700</pubDate>
       
       <guid>/tags/incident-response/</guid>
       <description></description>
