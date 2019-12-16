@@ -309,17 +309,14 @@
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2019-04-27T11:03:46-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/creative/</loc>
-    <lastmod>2019-04-27T10:55:59-06:00</lastmod>
+    <loc>/categories/ctf/</loc>
   </url>
   
   <url>
-    <loc>/placeholder/</loc>
-    <lastmod>2019-04-27T10:55:59-06:00</lastmod>
+    <loc>/scoreboard/</loc>
   </url>
   
 </urlset>

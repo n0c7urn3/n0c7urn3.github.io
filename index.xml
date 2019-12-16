@@ -173,7 +173,7 @@ The first thing I did (which really should not have been the first thing I did, 
     <item>
       <title>About</title>
       <link>/about/</link>
-      <pubDate>Sat, 27 Apr 2019 11:03:46 -0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
       <description>I am an IT specialist located in Denver, Colorado, with a strong interest in cyber-security. This blog is intended as a way to demonstrate my growth as a person and as a professional as I grow my skills and myself, as well as showcase my creations. The blog is focused on three focii:
@@ -181,12 +181,13 @@ The first thing I did (which really should not have been the first thing I did, 
     </item>
     
     <item>
-      <title>Placeholder</title>
-      <link>/placeholder/</link>
-      <pubDate>Sat, 27 Apr 2019 10:55:59 -0600</pubDate>
+      <title>Scoreboard</title>
+      <link>/scoreboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/placeholder/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at rhoncus orci, in tincidunt elit. Nullam eu sapien eget turpis tincidunt pharetra sed quis lacus. Donec laoreet, est vitae facilisis vulputate, elit neque iaculis nisi, quis euismod risus odio sit amet arcu. Aliquam erat volutpat. Praesent enim ante, consectetur et accumsan aliquam, efficitur vitae leo. Maecenas sapien neque, pharetra sed lacus sed, mattis viverra leo. Curabitur dapibus erat ullamcorper felis semper, sed imperdiet orci bibendum.</description>
+      <guid>/scoreboard/</guid>
+      <description>TEAM CTFs Team | Host | Date | Rank/Score/Completion &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- DeadPixels | The Many Hats Club/Hack The Box | 2019&amp;frasl;12 | 550
+SOLO CTFs Host | Challenge | Rank/Score/Completion &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-</description>
     </item>
     
   </channel>
