@@ -66,8 +66,9 @@ The first thing I did (which really should not have been the first thing I did, 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/scoreboard/</guid>
-      <description>TEAM CTFs Team | Host | Date | Rank/Score/Completion &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- DeadPixels | The Many Hats Club/Hack The Box | 2019&amp;frasl;12 | 550
-SOLO CTFs Host | Challenge | Rank/Score/Completion &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-</description>
+      <description>TEAM CTFs
+   Team Host Date Rank/Score/Completion     DeadPixels The Many Hats Club - Hack The Box Dec 2019 550, 18th place    SOLO CTFs
+   Host Date Rank/Score/Completion      </description>
     </item>
     
   </channel>
