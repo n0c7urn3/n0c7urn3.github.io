@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Sat, 04 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/technical/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 4</title>
+      <link>/posts/2020-01-19-ir-plan4/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-01-19-ir-plan4/</guid>
+      <description>Section 4: Asset Security Management Security practitioners face many issues when determining best how to secure an organization, but asset management is among the most challenging and the most critical. One cannot protect what one does not know exists. A properly executed IT Asset Management program could mean the difference between a well run network and a hodgepodge of poor documentation that creates easily access footholds for attackers.
+At a minimum, an IT Asset Management program should track the authorized equipment on the network and the information that describes it, including location, user info, configurations, and roles and responsibility (Brien, 2016).</description>
+    </item>
     
     <item>
       <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 3</title>
