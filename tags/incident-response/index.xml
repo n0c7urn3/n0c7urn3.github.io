@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/incident-response/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 5</title>
+      <link>/posts/2020-02-03-ir-plan5/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-02-03-ir-plan5/</guid>
+      <description>The following is part 5 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Table of Contents  Part 1 - &amp;ldquo;Abstract,&amp;rdquo; &amp;ldquo;Background,&amp;rdquo; &amp;amp; &amp;ldquo;Policies, Procedures, Roles, and Responsibilities&amp;rdquo;</description>
+    </item>
     
     <item>
       <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 4</title>
@@ -18,8 +28,8 @@
       <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/2020-01-19-ir-plan4/</guid>
-      <description>Section 4: Asset Security Management Security practitioners face many issues when determining best how to secure an organization, but asset management is among the most challenging and the most critical. One cannot protect what one does not know exists. A properly executed IT Asset Management program could mean the difference between a well run network and a hodgepodge of poor documentation that creates easily access footholds for attackers.
-At a minimum, an IT Asset Management program should track the authorized equipment on the network and the information that describes it, including location, user info, configurations, and roles and responsibility (Brien, 2016).</description>
+      <description>The following is part 4 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Table of Contents  Part 1 - &amp;ldquo;Abstract,&amp;rdquo; &amp;ldquo;Background,&amp;rdquo; &amp;amp; &amp;ldquo;Policies, Procedures, Roles, and Responsibilities&amp;rdquo;</description>
     </item>
     
     <item>
@@ -28,7 +38,8 @@ At a minimum, an IT Asset Management program should track the authorized equipme
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/2020-01-04-ir-plan3/</guid>
-      <description>Section 3: Network Security Incident Response is merely a piece of the puzzle when looking at the larger picture of network security. Each piece of a defensive strategy should complement and be complemented by each other piece. No piece should be isolated, and no piece should represent a single point of failure. Incident Response is no different, and is dependent upon the strategies that come before it, and informs those that come after.</description>
+      <description>The following is part 3 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
+ Table of Contents  Part 1 - &amp;ldquo;Abstract,&amp;rdquo; &amp;ldquo;Background,&amp;rdquo; &amp;amp; &amp;ldquo;Policies, Procedures, Roles, and Responsibilities&amp;rdquo;</description>
     </item>
     
     <item>
@@ -38,7 +49,7 @@ At a minimum, an IT Asset Management program should track the authorized equipme
       
       <guid>/posts/2019-12-12-ir-plan2/</guid>
       <description>The following is part 2 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
- Section 2: Data Governance Every organization should abide by a data governance program.</description>
+ Table of Contents  Part 1 - &amp;ldquo;Abstract,&amp;rdquo; &amp;ldquo;Background,&amp;rdquo; &amp;amp; &amp;ldquo;Policies, Procedures, Roles, and Responsibilities&amp;rdquo;</description>
     </item>
     
     <item>
@@ -48,7 +59,7 @@ At a minimum, an IT Asset Management program should track the authorized equipme
       
       <guid>/posts/2019-11-27-ir-plan1/</guid>
       <description>The following is part 1 of the Incident Response Plan that I submitted as my final capstone project for my BS in CyberSecurity at Colorado Technical University, and was originally written March 18, 2018. I decided to publish it to demonstrate the work I&amp;rsquo;ve done, as well as in the hope that someone will get some benefit from it.
- Abstract The role of incident response at any organization is an important one.</description>
+ Table of Contents  Part 1 - &amp;ldquo;Abstract,&amp;rdquo; &amp;ldquo;Background,&amp;rdquo; &amp;amp; &amp;ldquo;Policies, Procedures, Roles, and Responsibilities&amp;rdquo;</description>
     </item>
     
   </channel>
