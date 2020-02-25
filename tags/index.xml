@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CySA</title>
+      <link>/tags/cysa/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cysa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kerberos</title>
+      <link>/tags/kerberos/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kerberos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>incident response</title>

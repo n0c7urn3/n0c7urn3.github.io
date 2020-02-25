@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kerberos on n0c7urn3</title>
+    <link>/tags/kerberos/</link>
+    <description>Recent content in kerberos on n0c7urn3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/kerberos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kerberos Authentication Protocol</title>
+      <link>/posts/2020-02-24-kerberos-process/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-02-24-kerberos-process/</guid>
+      <description>&amp;ldquo;As a twelfth labour Herakles was to fetch Kerberos from Haides&amp;rsquo;s realm. Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.&amp;rdquo;
+  Pseudo-Apollodorus, Bibliotheca 2.122  Kerberos, often translated to Cerberus, is the three headed guard dog at the gates of Hades in Greek mythology. Similar in function, the Kerberos authentication protocol was borne of MIT&amp;rsquo;s Project Athena, which was designed to make computing more available to students through distributed computing.</description>
+    </item>
+    
+  </channel>
+</rss>

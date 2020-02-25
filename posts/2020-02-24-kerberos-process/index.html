@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Kerberos Authentication Protocol :: n0c7urn3</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="&amp;ldquo;As a twelfth labour Herakles was to fetch Kerberos from Haides&amp;rsquo;s realm. Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.&amp;rdquo;
+  Pseudo-Apollodorus, Bibliotheca 2.122  Kerberos, often translated to Cerberus, is the three headed guard dog at the gates of Hades in Greek mythology. Similar in function, the Kerberos authentication protocol was borne of MIT&amp;rsquo;s Project Athena, which was designed to make computing more available to students through distributed computing."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2020-02-24-kerberos-process/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+
+<link rel="shortcut icon" href="/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Kerberos Authentication Protocol :: n0c7urn3 — " />
+<meta name="twitter:description" content="&amp;ldquo;As a twelfth labour Herakles was to fetch Kerberos from Haides&amp;rsquo;s realm. Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.&amp;rdquo;
+  Pseudo-Apollodorus, Bibliotheca 2.122  Kerberos, often translated to Cerberus, is the three headed guard dog at the gates of Hades in Greek mythology. Similar in function, the Kerberos authentication protocol was borne of MIT&amp;rsquo;s Project Athena, which was designed to make computing more available to students through distributed computing." />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Kerberos Authentication Protocol :: n0c7urn3 — ">
+<meta property="og:description" content="&amp;ldquo;As a twelfth labour Herakles was to fetch Kerberos from Haides&amp;rsquo;s realm. Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.&amp;rdquo;
+  Pseudo-Apollodorus, Bibliotheca 2.122  Kerberos, often translated to Cerberus, is the three headed guard dog at the gates of Hades in Greek mythology. Similar in function, the Kerberos authentication protocol was borne of MIT&amp;rsquo;s Project Athena, which was designed to make computing more available to students through distributed computing." />
+<meta property="og:url" content="/posts/2020-02-24-kerberos-process/" />
+<meta property="og:site_name" content="Kerberos Authentication Protocol" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:section" content="technical" />
+<meta property="article:published_time" content="2020-02-24 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    n0c7urn3
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="https://github.com/n0c7urn3">Github</a></li>
+        
+      
+        
+          <li><a href="/scoreboard">Scoreboard</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/_n0c7urn3_">Twitter</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="https://github.com/n0c7urn3">Github</a></li>
+      
+    
+      
+        <li><a href="/scoreboard">Scoreboard</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/_n0c7urn3_">Twitter</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/2020-02-24-kerberos-process/">Kerberos Authentication Protocol</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2020-02-24
+    </span>
+    
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="/tags/kerberos/">kerberos</a>&nbsp;
+    
+    #<a href="/tags/cysa/">CySA</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  <div class="post-content"><div>
+        <blockquote>
+<p>&ldquo;As a twelfth labour Herakles was to fetch Kerberos from Haides&rsquo;s realm. Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.&rdquo;</p>
+</blockquote>
+<ul>
+<li><em>Pseudo-Apollodorus, Bibliotheca 2.122</em></li>
+</ul>
+<p>Kerberos, often translated to Cerberus, is the three headed guard dog at the gates of Hades in Greek mythology. Similar in function, the Kerberos authentication protocol was borne of MIT&rsquo;s Project Athena, which was designed to make computing more available to students through distributed computing. Each user was granted complete control of their workstation, so a network authentication became necessary to authenticate users for privileged actions.(4) Kerberos was developed to satisfy this need, and has since been used in other computing systems beyond Project Athena, such as Windows and *Nix-based operating systems.</p>
+<p>Kerberos works as a &ldquo;ticket&rdquo; based authentication system, passing these tickets between the user, the network service, and a third party authentication service known as a key distribution center (KDC). The KDC is made of two primary components, the Authentication Sever and the Ticket Granting Server. Though these can be housed on different servers, typically they are configured on the same server. It is this three party relationship and Kerberos&rsquo;s role as gatekeeper that gives the protocol its name.</p>
+<p>In order to authenticate, a user or client must first authenticate with the Authentication Server. At client logon, a ticket granting ticket is requested. This request contains the Name/ID of the client, the name/ID of the Ticket Granting Server, the network address, and the liftetime of the request. Once generated, the request is passed to the Authentication Server, which then checks to see if the client exists. Note that no credential checking is performed at this time.</p>
+<table>
+<thead>
+<tr>
+<th>Client</th>
+<th>&gt;<strong>Ticket Granting Ticket Request</strong>&gt;</th>
+<th>Authentication Server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name/ID of client</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Name/ID of service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Network Address</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Lifetime</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>If the client is found in the database, then a session key will be generated, along with two messages that are returned to the client. The first is a Ticket Granting Ticket, containing the Client ID, a timestamp, the network address, the lifetime of the ticket, and the session key. The Ticket Granting Ticket (sometimes referred to as a &ldquo;Golden Ticket&rdquo;) is then encrypted with the secret key of the Ticket Granting Server, and is therefore unable to be decrypted by the Client.</p>
+<p>The other message contains the ID of the Ticket Granting Server, the timestamp, liftime and the TGS session key. This message is encrypted using the client&rsquo;s secret key, allowing the client to decrypt it and read the contents. Note that the TGS session key is included in both messages, which will later allow communication between the two. Note also that each message is encrypted with the private key of the user, service, or machine that is intended to decrypt the message (in the case of a human user, the key is the password, which is salted with the full user@realmID, and hashed). If, at any point in the Kerberos process, an incorrect key is provided in the decryption, the process will fail.</p>
+<table>
+<thead>
+<tr>
+<th>Client</th>
+<th>&lt;<strong>Ticket Granting Ticket</strong>&lt;</th>
+<th>&lt;<strong>TGS Session Key</strong>&lt;</th>
+<th>Authentication Server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Encrypted with TGS Secret Key</em></td>
+<td><em>Encrypted with Client secret key</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Client ID</td>
+<td>Ticket Granting Server ID</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TGS ID</td>
+<td>Timestamp</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Network Address</td>
+<td>Lifetime</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Timestamp</td>
+<td>TGS Session Key</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Lifetime</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TGS Session Key</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The Client then sends 3 messages to the Ticket Granting Server:  The first is a plaintext message, containing the Client ID and a timestamp, the second is an Authenticator (comprised of the Client ID and timestamp, and the third is the Ticket Granting Ticket.</p>
+<table>
+<thead>
+<tr>
+<th>Client</th>
+<th>&gt;<strong>Plaintext message</strong>&gt;</th>
+<th>&gt;<strong>Authenticator</strong>&gt;</th>
+<th>&gt;<strong>Ticket Granting Ticket</strong>&gt;</th>
+<th>Ticket Granting Server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Server ID</td>
+<td><em>Encrypted using TGS Session Key</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Timestamp</td>
+<td>Client ID</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Timestamp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>At this point, the Ticket Granting Server will perform a database check to see if the requested service is known by the Key Distribution Center. After doing so, it will then decrypt the Ticket Granting Ticket using its own Secret Key, which will in turn give it access to the TGS Session Key, which then grants access to the Authenticator. The Ticket Granting Server then compares the Client ID from the Authenticator to the the Client ID in the Ticket Granting Ticket, as well as the timestamps between the two (default settings give a 2 minute tolerance for drift). While doing so, it also checks to make sure that:  <strong>A)</strong> The lifetime has not expired and <strong>B)</strong> That the Authenticator is not already stored in the cache (This is mitigation against replay attacks).  As a final check, the Ticket Granting Server compares the source IP of the three messages to the network address (if not NULL) in the Ticket Granting Ticket.</p>
+<p>Once the Ticket Granting Server performs all of its checks to make sure that, so far, everything is above board, it will generate the Service Session Key, as well as a Service Ticket containing the Client ID, Service ID, network address of the client (can be many if needed across multiple machines, or NULL if used on any machine), timestamp, lifetime, and the service session key, and encrypt the message using the Service Secret Key.  Once complete, the TGS sends two messages:  The Service Ticket, and a new message encrypted using the TGS Session Key, containing the Service ID, timestamp, lifetime, and the Service Session Key.</p>
+<table>
+<thead>
+<tr>
+<th>Client</th>
+<th>&lt;<strong>Service Ticket</strong>&lt;</th>
+<th>&lt;<strong>Encrypted message</strong>&lt;</th>
+<th>Ticket Granting Server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Encrypted using Service Secret Key</em></td>
+<td><em>Encrypted using TGS Session Key</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Client ID</td>
+<td>Service ID</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Service ID</td>
+<td>Timestamp</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Network Address</td>
+<td>Lifetime</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Timestamp</td>
+<td>Service Session Key</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Lifetime</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Service Session Key</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Once the messages are received, the client decrypts the message using the TGS Session Key, and retrieve the Service Session Key contained within. Using the Service Session Key, the Client prepares another encrypted Authenticator containing the Client ID and a timestamp, and forwards both the new Authenticator and the Service Ticket to the service.</p>
+<table>
+<thead>
+<tr>
+<th>Client</th>
+<th>&gt;<strong>Authenticator</strong>&gt;</th>
+<th>&gt;<strong>Service Ticket</strong>&gt;</th>
+<th>Service</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Encrypted using Service Session Key</em></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Client ID</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Timestamp</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The Service then decrypts the service ticket using its Secret Key (which gives it the Service Session Key), and the Authenticator using the Service Session Key. Much like the Ticket Granting Server, the Service then performs a series of checks comparing the Client ID and timestamps between the Authenticator and the Service Ticket, checks that the lifetime has not expired, checks that the Authenticator is not already in the cache (again, this is to prevent replay attacks), and checks that the network address matches the source IP (assuming that an address or list of addresses was specified). The Service then generates an Authenticator of its own encrypted with the Service Session Key and sends it to the Client.</p>
+<table>
+<thead>
+<tr>
+<th>Client</th>
+<th>&lt;<strong>Authenticator</strong>&lt;</th>
+<th>Service</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Encrypted using Service Session Key</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Service ID</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Timestamp</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Once the Client has received the Authenticator from the Service, it decrypts the Authenticator using the Service Session Key and compares against previous messages provided by the Ticket Granting Server to ensure that the Service ID is correct, and the timestamp is within an acceptable margin of error.  At this time, authentication has completed between the Client, Service, and Key Distribution Center, and future communications between the Client and the Service will use the cached Service Session Keys until such time as the Session expires, which, if further communications are needed, will require a new Authentication to be performed.</p>
+<p>Some items of note throughout the process:</p>
+<ul>
+<li>At no time was the Secret Key/password of any service/device/account transmitted during Authentication.
+<ul>
+<li>As part of Kerberos&rsquo;s core function is a Key Distribution Center, which contains all the keys within the realm, encrypted using a master key.</li>
+<li>Instead, messages were sent back and forth between the client, service, and KDC, encrypted with keys that only a service or device that knows the secret key can decrypt or was provided during the authentication process (session keys).</li>
+</ul>
+</li>
+<li>Only the Client communicated with the Service.</li>
+<li>Each message contained a timestamp, thereby proving the request is recent.</li>
+<li>Tickets were issued with lifetimes, after which the ticket is no longer valid.</li>
+<li>Checks are done to ensure that tickets have not already been used in order to avoid replay attacks (an attacker captures the ticket and resends it to the service).</li>
+</ul>
+
+      </div></div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      
+      <span class="button next">
+        <a href="/posts/2020-02-03-ir-plan5/">
+          <span class="button__text">Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 5</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+      
+    </div>
+  </div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

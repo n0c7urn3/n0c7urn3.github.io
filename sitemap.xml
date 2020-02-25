@@ -3,37 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cysa/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kerberos/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2020-02-24-kerberos-process/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/technical/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/2020-02-03-ir-plan5/</loc>
     <lastmod>2020-02-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/incident-response/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/technical/</loc>
     <lastmod>2020-02-03T00:00:00+00:00</lastmod>
   </url>
   

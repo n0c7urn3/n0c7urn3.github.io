@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2019 n0c7urn3 :: Powered by Hugo :: Theme made by panr  ::  The views expressed here are my own and do not reflect those of my past, present, or future employers</copyright>
-    <lastBuildDate>Mon, 03 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kerberos Authentication Protocol</title>
+      <link>/posts/2020-02-24-kerberos-process/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-02-24-kerberos-process/</guid>
+      <description>&amp;ldquo;As a twelfth labour Herakles was to fetch Kerberos from Haides&amp;rsquo;s realm. Kerberos had three dog-heads, a serpent for a tail, and along his back the heads of all kinds of snakes.&amp;rdquo;
+  Pseudo-Apollodorus, Bibliotheca 2.122  Kerberos, often translated to Cerberus, is the three headed guard dog at the gates of Hades in Greek mythology. Similar in function, the Kerberos authentication protocol was borne of MIT&amp;rsquo;s Project Athena, which was designed to make computing more available to students through distributed computing.</description>
+    </item>
     
     <item>
       <title>Bachelor&#39;s Degree Capstone Project:  Incident Response Plan part 5</title>
