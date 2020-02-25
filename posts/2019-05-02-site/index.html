@@ -12,6 +12,8 @@
 <link rel="canonical" href="/posts/2019-05-02-site/" />
 
 
+
+
 <link rel="stylesheet" href="/assets/style.css">
 
   <link rel="stylesheet" href="/assets/blue.css">
@@ -61,7 +63,7 @@
 <body class="">
 
 
-<div class="container center">
+<div class="container center headings--one-size">
 
   <header class="header">
   <div class="header__inner">
@@ -156,24 +158,18 @@
 
   
 
-  <div class="post-content">
-    <p>I&rsquo;ve made a few websites in the past:  A website called Newb Sec that I and a friend were going to use as a blog together (that would have satisfied many of the goals for this website), and a website for a residential computer repair business that I was trying to start as a means to try to transition into working for myself (which was misconceived for the amount of time I actually had to dedicate to it, working a full time job as is, and going to school full time).  Both of them are long since defunct, and both of them taught me a few things about the set up, but in both cases, I kind of cheated myself in the set up, as both used pre-built images from their respective hosting providers.</p>
-
+  <div class="post-content"><div>
+        <p>I&rsquo;ve made a few websites in the past:  A website called Newb Sec that I and a friend were going to use as a blog together (that would have satisfied many of the goals for this website), and a website for a residential computer repair business that I was trying to start as a means to try to transition into working for myself (which was misconceived for the amount of time I actually had to dedicate to it, working a full time job as is, and going to school full time).  Both of them are long since defunct, and both of them taught me a few things about the set up, but in both cases, I kind of cheated myself in the set up, as both used pre-built images from their respective hosting providers.</p>
 <p>This time around, I decided to a few things differently:  I wanted to start with a base image and build the site myself; any software I needed, I would install myself.  I was also unsure if I wanted to use Wordpress or another CMS like Drupal.  I knew I needed something, because I didn&rsquo;t want to code each page by hand.  Ultimately, I decided not to do either.  Around the time I got the idea in my head to build a personal website, I came across a thread on Twitter (that I tried and failed to go back and find) in which someone had asked their network what software they used for their blog, and someone replied that they use Hugo.</p>
-
 <p>Hugo is a framework built in Golang to generate static pages for blogs and similar websites.  You make a project on your computer or server, install a theme you lik, tell it to generate a new markdown file for posts/pages, and edit the file to say what you want.  It&rsquo;s super simple, and if you&rsquo;re like me and spend a lot of time on websites that use markdown language (like Reddit), you won&rsquo;t have a difficult time formatting your posts (and even if you&rsquo;re not familiar with markdown, guides like <a href="https://sourceforge.net/p/hugo-generator/wiki/markdown_syntax/">this one</a>).  Plus, because they&rsquo;re static pages, they load super quickly, and since they don&rsquo;t have to talk back to a database or load enough scripts to dwarf Doom, it can help lower the attack surface of the site (although modules and scripts can be added for extra functionality.</p>
-
 <p>As you can see from the copyright information down at the bottom of the page, I decided Hugo was the way to go.  It may be a bit less convenient to create and publish posts than something like Wordpress or Drupal that has an online editor, but I feel comfortable editing my posts locally and pushing them up to the server.  From previous experience, I was already familiar with registering a domain, choosing and setting up hosting, and editing the DNS records to point to the host.  So, let&rsquo;s push the skeleton of the site to the server!  Wait, it didn&rsquo;t work?</p>
-
 <p>Some of you that are more experienced than I may have noticed what I missed.  Remember how I said I was starting with a base image and would install all the applications I need?  Once I got my hosting purchased and stood up, did you notice what I didn&rsquo;t say I installed?  I&rsquo;ll give a hint:  It rhymes with schmeb schmerver.  A web server application is something I never had to install myself; as I said, previously I&rsquo;d used prebuilt Wordpress and Drupal images from my host, so it didn&rsquo;t even occur to me to do that.  Luckily it was just a quick installation to install the application onto the server, and a short modification of the config file to point it at the directory for the site.  I&rsquo;ll be honest, I was so stoked when it finally worked that as soon as my girlfriend and my couch-surfing buddy woke up, I told them to enter the url to my site in their browsers on their phones.  It&rsquo;s one thing to set up a Wordpress or Drupal website using prebuilt image, but to go from start to (not even close to) finish yourself; it&rsquo;s a totally different experience.</p>
-
 <p>The site still needs work (and content!), but I&rsquo;ll be doing a bit more tweaking this coming weekend to work on making it more secure, and a new post can be expected once I&rsquo;ve done that.</p>
-
 <ul>
 <li>n0c7urn3</li>
 </ul>
 
-  </div>
+      </div></div>
   
   <div class="pagination">
     <div class="pagination__title">

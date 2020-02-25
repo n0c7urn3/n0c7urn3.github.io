@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ctf on n0c7urn3</title>
@@ -19,7 +19,7 @@
       <guid>/scoreboard/</guid>
       <description>TEAM CTFs
    Team Host Date Rank/Score/Completion     DeadPixels The Many Hats Club - Hack The Box Dec 2019 550, 18th place    SOLO CTFs
-   Host Date Rank/Score/Completion      </description>
+   Host Date Rank/Score/Completion    </description>
     </item>
     
   </channel>
